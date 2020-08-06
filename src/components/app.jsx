@@ -5,6 +5,7 @@ const FormGroup = ({ children }) => <div className='form__group'>{children}</div
 
 const FormLabel = ({ text }) => <div className='form__label'>{text}</div>
 
+// Please note that I was given 30 minutes for this. 🙈
 const App = () => {
   const [subscription_type_options, setSubscriptionTypeOptions] = React.useState(['Not applicable']);
   const [is_type_options_disabled, setIsTypeOptionsDisabled] = React.useState(true);
